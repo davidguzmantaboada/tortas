@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+nav img {
+  width: 160px; }
+
+section h3 {
+  text-decoration: none;
+  color: yellow;
+  font-family: "Rampart One", cursive; }
+
+article img {
+  width: 100%; 
+}
+
+footer ul{
+	display: flex;
+}
+
+footer ul li{
+		list-style-type: none;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+}
+.footer__icons--sm img{
+	width: 40px;
+}
+.boton{
+	height: 60px;
+	padding: 20px;
+	background-color: red;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+}
